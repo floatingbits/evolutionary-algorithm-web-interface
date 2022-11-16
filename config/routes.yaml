@@ -1,3 +1,7 @@
 controllers:
     resource: ../src/Controller/
     type: attribute
+
+eabundle:
+    resource: "@EvolutionaryAlgorithmBundle/src/Controller/"
+    type: attribute

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ad881ee2d2388d91296c4f816df41f8",
+    "content-hash": "2215148271e93fc6d60d80dc400e52a6",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1443,6 +1443,72 @@
                 }
             ],
             "time": "2022-06-18T20:57:19+00:00"
+        },
+        {
+            "name": "floatingbits/evolutionary-algorithm",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/home/soeren/Projects/evolutionary-algorithm",
+                "reference": "fdb71d1bf5393a41dae8194560e17a2483eb8449"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.9",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FloatingBits\\EvolutionaryAlgorithm\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "FloatingBits\\EvolutionaryAlgorithm\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Soeren Parton",
+                    "email": "mail@floatingbitsmedia.de"
+                }
+            ],
+            "description": "A php implementation of evolutionary algorithms",
+            "transport-options": {
+                "relative": false
+            }
+        },
+        {
+            "name": "floatingbits/evolutionary-algorithm-bundle",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/home/soeren/Projects/ea-bundle-container/evolutionary-algorithm-bundle",
+                "reference": "a160375cd7b89948069f75aa2de087a6ea9fd14e"
+            },
+            "require": {
+                "floatingbits/evolutionary-algorithm": "dev-main"
+            },
+            "require-dev": {
+                "symfony/console": "^6.1",
+                "symfony/maker-bundle": "^1.48"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Floatingbits\\EvolutionaryAlgorithmBundle\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Soeren Parton",
+                    "email": "mail@floatingbitsmedia.de"
+                }
+            ],
+            "description": "Symfony 6.1 bundle for floatingbits' EA algorithm",
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
@@ -7163,6 +7229,79 @@
             "time": "2022-02-25T11:15:52+00:00"
         },
         {
+            "name": "symfony/webpack-encore-bundle",
+            "version": "v1.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/webpack-encore-bundle.git",
+                "reference": "bb399930c0299866258b616a74a27b50b94c5d45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/webpack-encore-bundle/zipball/bb399930c0299866258b616a74a27b50b94c5d45",
+                "reference": "bb399930c0299866258b616a74a27b50b94c5d45",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3",
+                "symfony/asset": "^4.4 || ^5.0 || ^6.0",
+                "symfony/config": "^4.4 || ^5.0 || ^6.0",
+                "symfony/dependency-injection": "^4.4 || ^5.0 || ^6.0",
+                "symfony/deprecation-contracts": "^2.1 || ^3.0",
+                "symfony/http-kernel": "^4.4 || ^5.0 || ^6.0",
+                "symfony/polyfill-php80": "^1.25.0",
+                "symfony/service-contracts": "^1.0 || ^2.0 || ^3.0"
+            },
+            "require-dev": {
+                "symfony/framework-bundle": "^4.4 || ^5.0 || ^6.0",
+                "symfony/phpunit-bridge": "^5.3 || ^6.0",
+                "symfony/twig-bundle": "^4.4 || ^5.0 || ^6.0",
+                "symfony/web-link": "^4.4 || ^5.0 || ^6.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "thanks": {
+                    "name": "symfony/webpack-encore",
+                    "url": "https://github.com/symfony/webpack-encore"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\WebpackEncoreBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Integration with your Symfony app & Webpack Encore!",
+            "support": {
+                "issues": "https://github.com/symfony/webpack-encore-bundle/issues",
+                "source": "https://github.com/symfony/webpack-encore-bundle/tree/v1.16.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-10-18T15:21:06+00:00"
+        },
+        {
             "name": "symfony/yaml",
             "version": "v6.1.6",
             "source": {
@@ -7314,6 +7453,75 @@
                 }
             ],
             "time": "2022-01-04T13:58:53+00:00"
+        },
+        {
+            "name": "twig/intl-extra",
+            "version": "v3.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/intl-extra.git",
+                "reference": "151e50fad9c7915bd56f0adf3f0cb3c47e6ed28a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/intl-extra/zipball/151e50fad9c7915bd56f0adf3f0cb3c47e6ed28a",
+                "reference": "151e50fad9c7915bd56f0adf3f0cb3c47e6ed28a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3",
+                "symfony/intl": "^4.4|^5.0|^6.0",
+                "twig/twig": "^2.7|^3.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9|^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Twig\\Extra\\Intl\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "A Twig extension for Intl",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "intl",
+                "twig"
+            ],
+            "support": {
+                "source": "https://github.com/twigphp/intl-extra/tree/v3.4.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/twig/twig",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-06-10T08:33:05+00:00"
         },
         {
             "name": "twig/twig",
@@ -9720,8 +9928,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "floatingbits/evolutionary-algorithm-bundle": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

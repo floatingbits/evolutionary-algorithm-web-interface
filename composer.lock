@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c597be7f751d86920118b1ec18bae67c",
+    "content-hash": "1eb1fa9394ff8b8191b31d4093aa1d69",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1449,13 +1449,13 @@
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/floatingbits/evolutionary-algorithm.git",
-                "reference": "4dbe79b5759591b11da28db5d4a37488bd96ae5f"
+                "url": "https://github.com/floatingbits/evolutionary-algorithm",
+                "reference": "ada52d79c33fd77ac5afe529dd0c1a24f4bdc85d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm/zipball/4dbe79b5759591b11da28db5d4a37488bd96ae5f",
-                "reference": "4dbe79b5759591b11da28db5d4a37488bd96ae5f",
+                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm/zipball/ada52d79c33fd77ac5afe529dd0c1a24f4bdc85d",
+                "reference": "ada52d79c33fd77ac5afe529dd0c1a24f4bdc85d",
                 "shasum": ""
             },
             "require-dev": {
@@ -1481,18 +1481,14 @@
                 }
             ],
             "description": "A php implementation of evolutionary algorithms",
-            "support": {
-                "source": "https://github.com/floatingbits/evolutionary-algorithm/tree/main",
-                "issues": "https://github.com/floatingbits/evolutionary-algorithm/issues"
-            },
-            "time": "2022-11-22T12:00:42+00:00"
+            "time": "2022-11-23T15:10:47+00:00"
         },
         {
             "name": "floatingbits/evolutionary-algorithm-bundle",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/floatingbits/evolutionary-algorithm-bundle.git",
+                "url": "https://github.com/floatingbits/evolutionary-algorithm-bundle",
                 "reference": "014087852afcd6a12506756f3bef60fda87d9a90"
             },
             "dist": {
@@ -1518,10 +1514,6 @@
                 }
             ],
             "description": "Symfony 6.1 bundle for floatingbits' EA algorithm",
-            "support": {
-                "source": "https://github.com/floatingbits/evolutionary-algorithm-bundle/tree/main",
-                "issues": "https://github.com/floatingbits/evolutionary-algorithm-bundle/issues"
-            },
             "time": "2022-11-23T15:11:40+00:00"
         },
         {

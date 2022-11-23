@@ -113,11 +113,13 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/floatingbits/evolutionary-algorithm"
+            "url": "https://github.com/floatingbits/evolutionary-algorithm",
+            "no-api": true
         },
         {
             "type": "vcs",
-            "url": "https://github.com/floatingbits/evolutionary-algorithm-bundle"
+            "url": "https://github.com/floatingbits/evolutionary-algorithm-bundle",
+            "no-api": true
         }
 
     ]

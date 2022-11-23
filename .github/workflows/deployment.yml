@@ -17,6 +17,9 @@ jobs:
         uses: php-actions/composer@v6
         with:
           dev: no
+        env:
+          APP_ENV: prod
+          APP_DEBUG: 0
 
 
       - name: Node 19.1.0

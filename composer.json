@@ -111,11 +111,13 @@
     },
     "repositories": [{
         "type": "path",
-        "url": "/home/soeren/Projects/evolutionary-algorithm"
+        "url": "/home/soeren/Projects/evolutionary-algorithm",
+        "ignore-empty": true
     },
         {
             "type": "path",
-            "url": "/home/soeren/Projects/ea-bundle-container/evolutionary-algorithm-bundle"
+            "url": "/home/soeren/Projects/ea-bundle-container/evolutionary-algorithm-bundle",
+            "ignore-empty": true
         },
         {
             "type": "vcs",

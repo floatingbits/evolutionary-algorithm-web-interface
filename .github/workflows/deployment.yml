@@ -1,0 +1,34 @@
+name: Deployment
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Deployment
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Node 19.1.0
+        uses: actions/setup-node@v1
+        with:
+          node-version: 19.1.0
+
+      - name: npm install and npm run build
+        run: |
+          npm i
+          npm run build
+
+      - name: copy files to server
+        uses: appleboy/scp-action@master
+        with:
+          HOST: ${{secrets.SSH_HOST}}
+          PORT: ${{secrets.SSH_PORT}}
+          USERNAME: ${{secrets.SSH_USER}}
+          password: ${{secrets.SSH_PASSWORD}}
+          target: ${{secrets.SSH_TARGET}}
+          source: "./config/*,./migrations/*, ./public/*, ./src/*, ./vendor/*, ./translations/*, ./.env"

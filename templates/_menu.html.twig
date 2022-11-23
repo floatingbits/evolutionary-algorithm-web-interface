@@ -16,7 +16,27 @@
     <ul class="nav navbar-nav navbar-right">
         <li>
             <a class="btn btn-secondary" href="{{ path('evolutionary_algorithm_problem_index') }}">
-                <i class="fa fa-home" aria-hidden="true"></i> {{ 'menu.problem'|trans }}
+                {{ 'menu.problem'|trans }}
+            </a>
+        </li>
+        <li>
+            <a class="btn btn-secondary" href="{{ path('evolutionary_algorithm_problem_instance_index') }}">
+                {{ 'menu.problem_instance'|trans }}
+            </a>
+        </li>
+        <li>
+            <a class="btn btn-secondary" href="{{ path('evolutionary_algorithm_tournament_type_index') }}">
+                 {{ 'menu.tournament_type'|trans }}
+            </a>
+        </li>
+        <li>
+            <a class="btn btn-secondary" href="{{ path('evolutionary_algorithm_tournament_configuration_index') }}">
+                {{ 'menu.tournament_configuration'|trans }}
+            </a>
+        </li>
+        <li>
+            <a class="btn btn-secondary" href="{{ path('evolutionary_algorithm_tournament_run_index') }}">
+                {{ 'menu.tournament_run'|trans }}
             </a>
         </li>
     </ul>

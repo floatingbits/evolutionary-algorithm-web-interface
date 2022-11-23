@@ -1,3 +1,11 @@
 menu:
   problem:
     Probleme
+  problem_instance:
+    Probleminstanzen
+  tournament_type:
+    Turnierarten
+  tournament_configuration:
+    Turnierkonfigurationen
+  tournament_run:
+    Turnierdurchläufe

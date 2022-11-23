@@ -1493,12 +1493,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/floatingbits/evolutionary-algorithm-bundle.git",
-                "reference": "d9077f1369b44da14f131fdedf861de285b95efd"
+                "reference": "788a6cdde0d2d2cfba57cafb6cbdea2ac7735c3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm-bundle/zipball/d9077f1369b44da14f131fdedf861de285b95efd",
-                "reference": "d9077f1369b44da14f131fdedf861de285b95efd",
+                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm-bundle/zipball/788a6cdde0d2d2cfba57cafb6cbdea2ac7735c3f",
+                "reference": "788a6cdde0d2d2cfba57cafb6cbdea2ac7735c3f",
                 "shasum": ""
             },
             "require": {
@@ -1522,7 +1522,7 @@
                 "source": "https://github.com/floatingbits/evolutionary-algorithm-bundle/tree/main",
                 "issues": "https://github.com/floatingbits/evolutionary-algorithm-bundle/issues"
             },
-            "time": "2022-11-23T15:00:37+00:00"
+            "time": "2022-11-23T15:05:23+00:00"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",

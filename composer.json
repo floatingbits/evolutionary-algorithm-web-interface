@@ -109,16 +109,7 @@
         "symfony/stopwatch": "6.1.*",
         "symfony/web-profiler-bundle": "6.1.*"
     },
-    "repositories": [{
-        "type": "path",
-        "url": "/home/soeren/Projects/evolutionary-algorithm",
-        "ignore-empty": true
-    },
-        {
-            "type": "path",
-            "url": "/home/soeren/Projects/ea-bundle-container/evolutionary-algorithm-bundle",
-            "ignore-empty": true
-        },
+    "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/floatingbits/evolutionary-algorithm"

@@ -38,7 +38,6 @@ jobs:
           envkey_APP_DEBUG: false
           envkey_APP_ENV: "prod"
           envkey_DATABASE_URL: "mysql://${{secrets.DB_USER}}:${{secrets.DB_PASSWORD}}@localhost:3306/${{secrets.DB_NAME}}"
-          envkey_SECRET_KEY: ${{ secrets.SECRET_KEY }}
           file_name: .env
           fail_on_empty: false
 

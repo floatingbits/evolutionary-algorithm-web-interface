@@ -1450,7 +1450,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/soeren/Projects/evolutionary-algorithm",
-                "reference": "fdb71d1bf5393a41dae8194560e17a2483eb8449"
+                "reference": "4dbe79b5759591b11da28db5d4a37488bd96ae5f"
             },
             "require-dev": {
                 "phpstan/phpstan": "^1.9",
@@ -1484,14 +1484,10 @@
             "dist": {
                 "type": "path",
                 "url": "/home/soeren/Projects/ea-bundle-container/evolutionary-algorithm-bundle",
-                "reference": "a160375cd7b89948069f75aa2de087a6ea9fd14e"
+                "reference": "acbccb66e0e22ae080336e0e3fb1fb8a20b49f30"
             },
             "require": {
                 "floatingbits/evolutionary-algorithm": "dev-main"
-            },
-            "require-dev": {
-                "symfony/console": "^6.1",
-                "symfony/maker-bundle": "^1.48"
             },
             "type": "symfony-bundle",
             "autoload": {

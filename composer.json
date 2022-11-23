@@ -116,5 +116,15 @@
         {
             "type": "path",
             "url": "/home/soeren/Projects/ea-bundle-container/evolutionary-algorithm-bundle"
-        }]
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/floatingbits/evolutionary-algorithm"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/floatingbits/evolutionary-algorithm-bundle"
+        }
+
+    ]
 }

@@ -59,4 +59,4 @@ jobs:
           USERNAME: ${{secrets.SSH_USER}}
           password: ${{secrets.SSH_PASSWORD}}
           target: ${{secrets.SSH_TARGET}}
-          source: "./config/*,./migrations/*, ./public/*, ./src/*, ./vendor/*, ./translations/*, ./.env, ./composer.json, ./bin/*"
+          source: "./config/*,./migrations/*, ./public/*, ./src/*, ./vendor/*, ./translations/*, ./.env, ./composer.json, ./bin/*, ./templates/*"

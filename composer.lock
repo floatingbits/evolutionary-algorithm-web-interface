@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2215148271e93fc6d60d80dc400e52a6",
+    "content-hash": "88c08b079a939a11da10a18eacd13aa4",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1484,7 +1484,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/soeren/Projects/ea-bundle-container/evolutionary-algorithm-bundle",
-                "reference": "acbccb66e0e22ae080336e0e3fb1fb8a20b49f30"
+                "reference": "ce14957423bf9722ec48565373a9381fa2b25677"
             },
             "require": {
                 "floatingbits/evolutionary-algorithm": "dev-main"

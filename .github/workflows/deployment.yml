@@ -41,6 +41,12 @@ jobs:
           file_name: .env
           fail_on_empty: false
 
+      - name: Debug dotenv
+          id: envdebug
+          run: echo ::set-output name=version::$(cat .env)
+      - name: Test output
+        run: echo ${{ steps.envdebug.outputs.version }}
+
       - name: copy files to server
         uses: appleboy/scp-action@master
         with:

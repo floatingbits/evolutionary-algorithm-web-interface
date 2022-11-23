@@ -19,6 +19,7 @@ jobs:
           envkey_APP_DEBUG: 1
           envkey_APP_ENV: "prod"
           envkey_DATABASE_URL: "mysql://${{secrets.DB_USER}}:${{secrets.DB_PASSWORD}}@localhost:3306/${{secrets.DB_NAME}}"
+          envkey_MESSENGER_TRANSPORT_DSN: "doctrine://default?auto_setup=0"
           file_name: .env
           fail_on_empty: false
 

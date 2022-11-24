@@ -62,7 +62,7 @@ jobs:
           target: ${{secrets.SSH_TARGET}}
           source: "./config/*,./migrations/*, ./public/*, ./src/*, ./vendor/*, ./translations/*, ./.env, ./composer.json, ./bin/*, ./templates/*"
 
-      - name: executing remote ssh commands using password
+      - name: clearing cache via ssh and symfony console
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}

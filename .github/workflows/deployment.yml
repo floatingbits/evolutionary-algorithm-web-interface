@@ -61,3 +61,12 @@ jobs:
           password: ${{secrets.SSH_PASSWORD}}
           target: ${{secrets.SSH_TARGET}}
           source: "./config/*,./migrations/*, ./public/*, ./src/*, ./vendor/*, ./translations/*, ./.env, ./composer.json, ./bin/*, ./templates/*"
+
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          port: ${{ secrets.SSH_PORT }}
+          script: cd ${{secrets.SSH_TARGET}} && bin/console cache:clear

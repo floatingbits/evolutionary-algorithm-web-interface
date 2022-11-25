@@ -9,3 +9,9 @@ menu:
     Turnierkonfigurationen
   tournament_run:
     Turnierdurchläufe
+
+home:
+  headline: Wilkommen bei FloatingBits' Evolutionärem Algorithmus
+  copy:
+    p1: "Diese Seite ist ein Web-Interface für die <a href='https://github.com/floatingbits/evolutionary-algorithm'>EvolutionaryAlgorithm-Bibliothek von FloatingBits</a>. "
+    p2: "Vielleicht starten Sie einfach, indem Sie sich die <a href='/tournament-run'>Turnierergebnisse</a> und die Gewinner-Genotypen der Turnierdurchläufe auf deren Detailseiten anschauen."

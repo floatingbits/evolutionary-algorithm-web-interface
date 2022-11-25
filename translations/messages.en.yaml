@@ -9,3 +9,10 @@ menu:
     Tournament Configurations
   tournament_run:
     Tournament Run
+
+
+home:
+  headline: Welcome to FloatingBits' Evolutionary Algorithm
+  copy:
+    p1: "This page is a Web-Interface for FloatingBits <a href='https://github.com/floatingbits/evolutionary-algorithm'>EvolutionaryAlgorithm library</a>. "
+    p2: "Let's start by having a look at the <a href='/tournament-run'>tournament results</a> and the winner genotypes of the tournament runs on their respective detail pages."

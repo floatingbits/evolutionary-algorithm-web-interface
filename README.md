@@ -14,8 +14,13 @@ On the other hand, I just wanted to show the world my algorithm in action ;)
 
 ## Installation
 If you want to make your own installation, it should't be too difficult. A web server running php8.1 and a mysql server should be enough. 
-Clone this repo, run `composer install`, `npm install` and `npm run dev`, setup a database and a .env file,
-and create your database scheme using `bin/console doctrine:schema:create` and you should be good. 
+Clone this repo, run 
+1. `composer install`,
+2. `npm install` and `npm run dev` (or `npm run build` for production), 
+3. setup a database 
+4. and a .env file,
+5. and create your database scheme using `bin/console doctrine:schema:create` and you should be good. 
+
 The .env file should look something like this:
 ``` 
 APP_DEBUG: 1 

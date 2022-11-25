@@ -8,6 +8,9 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
 import "bootstrap/scss/bootstrap.scss";
+import "startbootstrap-sb-admin/src/scss/styles.scss";
+import "startbootstrap-sb-admin/src/js/scripts";
+import "@fortawesome/fontawesome-free/css/all.css";
 require("bootstrap");
 // start the Stimulus application
 import './bootstrap';

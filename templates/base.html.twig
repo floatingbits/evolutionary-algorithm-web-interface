@@ -24,48 +24,45 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
 </head>
 
-<body id="{% block body_id %}{% endblock %}">
+<body id="{% block body_id %}{% endblock %}" class="sb-nav-fixed">
 
 {% block header %}
     <header>
         <div class="navbar navbar-default navbar-static-top" role="navigation">
             <div class="container">
                 {% include '_menu.html.twig' %}
+
             </div>
         </div>
     </header>
 {% endblock %}
 
-<div class="container body-container">
-    {% block body %}
-        <div class="row">
-            <div id="main" class="col-sm-9">
-                {{ include('default/_flash_messages.html.twig') }}
 
-                {% block main %}{% endblock %}
-            </div>
-
-
-        </div>
-    {% endblock %}
-</div>
-
-{% block footer %}
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div id="footer-copyright" class="col-md-6">
-                    <p>&copy; {{ 'now'|date('Y') }} - Floatingbitsmedia</p>
+{% block body %}
+<div id="layoutSidenav">
+    {% include '_sidenav.html.twig' %}
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="container-fluid px-4">
+                <div class="row">
+                    <div id="main" class="col-sm-9">
+                        {% block main %}{% endblock %}
+                    </div>
                 </div>
-
             </div>
-        </div>
-    </footer>
+        </main>
+        <footer class="py-4 bg-light mt-auto">
+            <div class="container-fluid px-4">
+                <div class="d-flex align-items-center justify-content-between small">
+                    <div class="text-muted">Copyright &copy; FloatingBits 2022</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
 {% endblock %}
 
-{# it's not mandatory to set the timezone in localizeddate(). This is done to
-           avoid errors when the 'intl' PHP extension is not available and the application
-           is forced to use the limited "intl polyfill", which only supports UTC and GMT #}
-<!-- Page rendered on {{ 'now'|format_datetime('long', 'long', '', 'UTC') }} -->
+
+
 </body>
 </html>

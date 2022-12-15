@@ -111,7 +111,7 @@
         "symfony/web-profiler-bundle": "6.1.*"
     },
     "repositories": [
-    
+        
         {
             "type": "vcs",
             "url": "https://github.com/floatingbits/evolutionary-algorithm",

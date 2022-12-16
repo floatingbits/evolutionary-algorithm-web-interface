@@ -4,7 +4,7 @@ This is a web interface for floatingbits' [evolutionary algorithm library](https
 a library implementing an evolutionary algorithm in php, which is designed to be highly entensible and flexible. 
 
 ## Demo
-Visit a running demo [here](http://ea.floatingbitsmedia.de/).
+Visit a running demo [here](http://ea.floatingbitsmedia.de/). The credentials to user CRUD functionality are myUser/iamauser.
 
 ## Intention
 On the one hand, keeping track of all the generations of specimens and their development throughout the evolution can be a 

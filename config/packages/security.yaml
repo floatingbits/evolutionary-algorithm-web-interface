@@ -4,15 +4,19 @@ security:
         Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface: 'auto'
     # https://symfony.com/doc/current/security.html#loading-the-user-the-user-provider
     providers:
-        users_in_memory: { memory: null }
+        users_in_memory:
+            memory:
+                users:
+                    myUser: {password: '$2y$13$CBTvhD1kUttxyIkizr9Dee9/eaLRk7uZSzV6lVQa/tT3tOO5ViE.y', roles: ['ROLE_USER']}
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
         main:
-            lazy: true
             provider: users_in_memory
-
+            http_basic:
+                realm: Secured Area
+                provider: users_in_memory
             # activate different ways to authenticate
             # https://symfony.com/doc/current/security.html#the-firewall
 
@@ -22,7 +26,8 @@ security:
     # Easy way to control access for large sections of your site
     # Note: Only the *first* access control that matches will be used
     access_control:
-        # - { path: ^/admin, roles: ROLE_ADMIN }
+        - { path: (new|edit)$, roles: ROLE_USER }
+        - { path: ^/, roles: ROLE_USER, methods: [POST, PUT, DELETE] }
         # - { path: ^/profile, roles: ROLE_USER }
 
 when@test:

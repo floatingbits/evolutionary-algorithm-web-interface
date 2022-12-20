@@ -1450,12 +1450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/floatingbits/evolutionary-algorithm",
-                "reference": "e34a6e7bb4d25c1e9f13edffba8b816b42a414de"
+                "reference": "b7006570fed11cb626d29219b24f1a9f58241a88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm/zipball/e34a6e7bb4d25c1e9f13edffba8b816b42a414de",
-                "reference": "e34a6e7bb4d25c1e9f13edffba8b816b42a414de",
+                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm/zipball/b7006570fed11cb626d29219b24f1a9f58241a88",
+                "reference": "b7006570fed11cb626d29219b24f1a9f58241a88",
                 "shasum": ""
             },
             "require-dev": {
@@ -1481,7 +1481,7 @@
                 }
             ],
             "description": "A php implementation of evolutionary algorithms",
-            "time": "2022-12-15T13:49:19+00:00"
+            "time": "2022-12-20T15:01:15+00:00"
         },
         {
             "name": "floatingbits/evolutionary-algorithm-bundle",
@@ -1489,12 +1489,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/floatingbits/evolutionary-algorithm-bundle",
-                "reference": "4c6a72bf365f86b9ef5018f50be24df70230014c"
+                "reference": "d445741b54fdd0845b16f6bbd449a645278d52ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm-bundle/zipball/4c6a72bf365f86b9ef5018f50be24df70230014c",
-                "reference": "4c6a72bf365f86b9ef5018f50be24df70230014c",
+                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm-bundle/zipball/d445741b54fdd0845b16f6bbd449a645278d52ca",
+                "reference": "d445741b54fdd0845b16f6bbd449a645278d52ca",
                 "shasum": ""
             },
             "require": {
@@ -1514,7 +1514,7 @@
                 }
             ],
             "description": "Symfony 6.1 bundle for floatingbits' EA algorithm",
-            "time": "2022-12-16T16:32:47+00:00"
+            "time": "2022-12-20T14:59:50+00:00"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",

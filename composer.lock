@@ -1489,12 +1489,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/floatingbits/evolutionary-algorithm-bundle",
-                "reference": "d445741b54fdd0845b16f6bbd449a645278d52ca"
+                "reference": "748c235b5c1b2b2a798e6e055624fedf82c53947"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm-bundle/zipball/d445741b54fdd0845b16f6bbd449a645278d52ca",
-                "reference": "d445741b54fdd0845b16f6bbd449a645278d52ca",
+                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm-bundle/zipball/748c235b5c1b2b2a798e6e055624fedf82c53947",
+                "reference": "748c235b5c1b2b2a798e6e055624fedf82c53947",
                 "shasum": ""
             },
             "require": {
@@ -1514,7 +1514,7 @@
                 }
             ],
             "description": "Symfony 6.1 bundle for floatingbits' EA algorithm",
-            "time": "2022-12-20T14:59:50+00:00"
+            "time": "2022-12-21T09:06:17+00:00"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",

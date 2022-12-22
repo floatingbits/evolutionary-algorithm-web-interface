@@ -38,6 +38,9 @@
     "floatingbits/evolutionary-algorithm-bundle": {
         "version": "dev-main"
     },
+    "floatingbits/example-ea-problems-bundle": {
+        "version": "dev-main"
+    },
     "phpunit/phpunit": {
         "version": "9.5",
         "recipe": {

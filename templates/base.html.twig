@@ -45,13 +45,25 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
         <main>
             <div class="container-fluid px-4">
                 <div class="row">
+                    <div class="col">
+                        {% for label, messages in app.session.flashBag.all() %}
+                            {% for message in messages %}
+                                <div class="alert alert-{{ label }}" role="alert">
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endfor %}
+
+                    </div>
+                </div>
+                <div class="row">
                     <div id="main" class="col-sm-9">
                         {% block main %}{% endblock %}
                     </div>
                 </div>
             </div>
         </main>
-        <footer class="py-4 bg-light mt-auto">
+        <footer class="py-4 mt-auto">
             <div class="container-fluid px-4">
                 <div class="d-flex align-items-center justify-content-between small">
                     <div class="text-muted">Copyright &copy; FloatingBits 2022</div>

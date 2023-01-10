@@ -1468,12 +1468,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/floatingbits/evolutionary-algorithm",
-                "reference": "a51855877a02f54570cc06323cb556c8263b982f"
+                "reference": "255002c9919198f478b3f2358344045cbbeac3d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm/zipball/a51855877a02f54570cc06323cb556c8263b982f",
-                "reference": "a51855877a02f54570cc06323cb556c8263b982f",
+                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm/zipball/255002c9919198f478b3f2358344045cbbeac3d2",
+                "reference": "255002c9919198f478b3f2358344045cbbeac3d2",
                 "shasum": ""
             },
             "require-dev": {
@@ -1499,7 +1499,7 @@
                 }
             ],
             "description": "A php implementation of evolutionary algorithms",
-            "time": "2022-12-22T10:58:29+00:00"
+            "time": "2023-01-04T16:32:53+00:00"
         },
         {
             "name": "floatingbits/evolutionary-algorithm-bundle",
@@ -1507,12 +1507,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/floatingbits/evolutionary-algorithm-bundle",
-                "reference": "8640b97b24968a7125184d30e60df58133882817"
+                "reference": "ee5c6cb532f234140fea2c445df8c755018b5530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm-bundle/zipball/8640b97b24968a7125184d30e60df58133882817",
-                "reference": "8640b97b24968a7125184d30e60df58133882817",
+                "url": "https://api.github.com/repos/floatingbits/evolutionary-algorithm-bundle/zipball/ee5c6cb532f234140fea2c445df8c755018b5530",
+                "reference": "ee5c6cb532f234140fea2c445df8c755018b5530",
                 "shasum": ""
             },
             "require": {
@@ -1533,7 +1533,7 @@
                 }
             ],
             "description": "Symfony 6.1 bundle for floatingbits' EA algorithm",
-            "time": "2022-12-21T12:17:56+00:00"
+            "time": "2023-01-10T11:10:53+00:00"
         },
         {
             "name": "floatingbits/example-ea-problems-bundle",
@@ -1541,12 +1541,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/floatingbits/example-ea-problems-bundle",
-                "reference": "03530a30e4611372ea7b6ccda5d6984e0fca5c61"
+                "reference": "8fff7b39d539126440f3f56075c9a52037f6b39c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/floatingbits/example-ea-problems-bundle/zipball/03530a30e4611372ea7b6ccda5d6984e0fca5c61",
-                "reference": "03530a30e4611372ea7b6ccda5d6984e0fca5c61",
+                "url": "https://api.github.com/repos/floatingbits/example-ea-problems-bundle/zipball/8fff7b39d539126440f3f56075c9a52037f6b39c",
+                "reference": "8fff7b39d539126440f3f56075c9a52037f6b39c",
                 "shasum": ""
             },
             "require": {
@@ -1567,7 +1567,7 @@
                     "email": "mail@floatingbitsmedia.de"
                 }
             ],
-            "time": "2022-12-22T11:05:01+00:00"
+            "time": "2022-12-22T11:13:22+00:00"
         },
         {
             "name": "floatingbits/random-string-ea-problem",
@@ -1575,12 +1575,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/floatingbits/random-string-ea-problem",
-                "reference": "dc73033a9caf8b1e18b9c3e3606774be49a52949"
+                "reference": "524d91440459ace1c578d7984d3ef513a511d109"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/floatingbits/random-string-ea-problem/zipball/dc73033a9caf8b1e18b9c3e3606774be49a52949",
-                "reference": "dc73033a9caf8b1e18b9c3e3606774be49a52949",
+                "url": "https://api.github.com/repos/floatingbits/random-string-ea-problem/zipball/524d91440459ace1c578d7984d3ef513a511d109",
+                "reference": "524d91440459ace1c578d7984d3ef513a511d109",
                 "shasum": ""
             },
             "require": {
@@ -1602,7 +1602,7 @@
                     "email": "mail@floatingbitsmedia.de"
                 }
             ],
-            "time": "2022-12-22T11:04:07+00:00"
+            "time": "2022-12-22T11:17:19+00:00"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",

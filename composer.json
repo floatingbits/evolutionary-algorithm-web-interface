@@ -112,7 +112,7 @@
         "symfony/web-profiler-bundle": "6.1.*"
     },
     "repositories": [
-        
+
         {
             "type": "vcs",
             "url": "https://github.com/floatingbits/example-ea-problems-bundle",
@@ -131,6 +131,11 @@
         {
             "type": "vcs",
             "url": "https://github.com/floatingbits/evolutionary-algorithm-bundle",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/floatingbits/image-processing-ea-problems",
             "no-api": true
         }
 

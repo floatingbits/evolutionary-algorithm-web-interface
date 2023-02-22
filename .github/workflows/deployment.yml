@@ -20,6 +20,7 @@ jobs:
         with:
           php-version: '8.1'
           extensions: imagick
+          ini-file: '/usr/local/etc/php/conf.d/docker-php-ext-sodium.ini'
 
       - name: Make envfile
         uses: SpicyPizza/create-envfile@v1.3
